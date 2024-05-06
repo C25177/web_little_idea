@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --containerSize: 150px;
+  --ballSize: 10px;
+  --half-ballSize: -5px;
+  --alltime: 2000ms;
+}
+
+body {
+  background: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-family: 'Fira Code';
+}
+
+span {
+  color: white;
+  animation: shadowing 1s ease-in-out infinite alternate;
+  animation-delay: calc(var(--i) * 0.2s);
+}
+
+@keyframes shadowing {
+  to {
+    color: rgb(0, 247, 255);
+    text-shadow: 20px 0 70px rgb(0, 247, 255);
+  }
+}
