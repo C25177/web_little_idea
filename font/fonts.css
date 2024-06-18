@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MeriendaOne';
+  font-display: swap;
+  src: url('./fonts/MeriendaOne-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'pangmenzhengdao';
+  font-display: swap;
+  src: url('./fonts/pangmenzhengdao.ttf') format("truetype");
+}
